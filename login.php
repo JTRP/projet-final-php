@@ -49,6 +49,7 @@ if (
                 $success = 'Vous êtes bien connecté !';
 
                 $_SESSION['user'] = [
+                    "id" => $user['id'],
                     "username" => $user['pseudonym'],
                     "email" => $user['email'],
                     "register_date" => $user['register_date']

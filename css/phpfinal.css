@@ -188,6 +188,10 @@ button:hover {
 
 }
 
+input[type=submit] {
+    cursor: pointer;
+}
+
 
 
 /* Article content */

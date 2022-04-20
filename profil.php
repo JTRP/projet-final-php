@@ -34,15 +34,15 @@ include('function/betterPrint.php');
 
         <div class="profil-content">
             <div>
-                <p> E-mail : <?= $_SESSION['user']['email'] ?? '' ?> </p>
+                <p> E-mail : <?= htmlspecialchars( $_SESSION['user']['email'] ) ?? '' ?> </p>
             </div>
 
             <div>
-                <p> Username : <?= $_SESSION['user']['username'] ?? '' ?> </p>
+                <p> Username : <?= htmlspecialchars( $_SESSION['user']['username'] ) ?? '' ?> </p>
             </div>
 
             <div>
-                <p> Date de creation : <?= $_SESSION['user']['register_date'] ?? '' ?> </p>
+                <p> Date de creation : <?= htmlspecialchars( $_SESSION['user']['register_date'] )?? '' ?> </p>
             </div>
         </div>
 
