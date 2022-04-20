@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #1f1f1f;
+
+    font-family: Arial, sans-serif;
+
+    color: white;
+
+}
+
+/* Special check */
+
+.message-error {
+
+    color: red;
+
+    font-weight: bolder;
+
+    margin-bottom: 10px;
+
+}
+
+.message-success {
+
+    color: green;
+
+    font-weight: bolder;
+
+}
+
+/* Contenu de page */
+
+.main-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+/* Tete de page */
+
+.header-content {
+
+    display: flex;
+
+    text-align: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+    font-size: .9rem;
+
+
+    background-color: #343434;
+}
+
+.header-title a {
+
+    text-decoration: none;
+
+    color: white;
+
+}
+
+
+/* Nav menu */
+
+.nav-content {
+
+    font-size: .7rem;
+
+}
+
+.nav-list {
+
+    display: flex;
+
+    flex-direction: row;
+
+    padding-left: 0;
+
+    list-style: none;
+
+}
+
+.nav-list li {
+
+    display: block;
+
+    padding: 20px;
+
+}
+
+.nav-list a {
+
+    text-decoration: none;
+
+    color: white;
+
+    transition: all 1s ease;
+}
+
+.nav-list a:hover {
+
+    color: pink;
+
+}
+
+/* Form nav */
+
+.header-search form {
+
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+}
+
+.header-search form div{
+
+    padding: 2px;
+
+}
+
+input, select, textarea {
+
+    display: block;
+
+    background-color: rgba(52, 52, 52, 0.68);
+
+    outline: none;
+
+    border: 2px rgba(128, 128, 128, 0.31) solid;
+
+    border-radius: 3px;
+
+    padding: 5px;
+
+    color: white;
+}
+
+input:focus {
+
+    border: 1px solid rgba(0,98,255,0.63);
+
+    box-shadow: 0px 0px 5px 1px rgba(0,98,255,0.63);
+
+}
+
+button {
+
+    display: block;
+
+    padding: 5px;
+
+    background-color: rgba(52, 52, 52, 0.68);
+
+    border: 1px solid #28a745;
+
+    color: #28a745;
+
+    border-radius: 3px;
+
+    width: 30px;
+
+    transition: all 1s ease;
+
+}
+
+button:hover {
+
+    background-color: #28a745;
+
+    color: white;
+
+}
+
+
+
+/* Article content */
+
+
+/* index.php article */
+
+.article-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin: auto;
+
+    font-size: .8rem;
+
+}
+
+.article-content>header {
+
+    margin-bottom: 20px;
+
+    margin-top: 20px;
+
+}
+
+/* Article list fruit */
+
+.list-fruit {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.article-list-fruit {
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    width: 40%;
+
+}
+
+.article-list-fruit div {
+
+    padding: 10px;
+
+}
+
+.account {
+
+    border: 1px solid #28a745;
+
+    background-color: #28a745;
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: all .5s ease;
+
+}
+
+.account:hover {
+
+    background-color: #218a39;
+
+}
+
+/* Article form sign */
+
+.form-sign div {
+
+    padding-bottom: 20px;
+
+}
+
+/* Article Profil */
+
+.profil-content div {
+
+    padding: 20px;
+
+    border: pink 2px solid;
+
+    border-radius: 3px;
+
+}
+
+/* Create fruit */
